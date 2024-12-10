@@ -1,0 +1,65 @@
+body
+{
+	color:white;
+	font-family:'comic sans ms',sans-serif;
+	background-image: url(https://wallpapercave.com/wp/wp2506797.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+}
+fieldset
+{
+	border:5px solid white;
+	background-color:rgba(0,0,0,0.3);
+}
+table
+{
+	width: 100%;
+	
+}
+table tr td
+{
+	padding: 10px;
+	font-size:20px;	
+}
+h1{
+	text-align: center;
+	text-shadow: 0 0 30px black;
+	color: white;
+	font-size: 40px;
+
+}
+legend
+{
+	display: block;
+	background: linear-gradient(45deg,black,blue,black);
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: 10px;
+	font-size: 20px;
+
+
+}
+input[type="text"],
+input[type='number'],
+select,
+textarea,
+input[type='date'],
+input[type='month']
+{
+	background-color:yellow;
+	width:200px;
+	height:30px;
+	border-radius:10px;
+	border:none;
+	outline:none;
+}
+input[type="text"]:focus,
+input[type='number']:focus,
+select:focus,
+textarea:focus,
+input[type='date']:focus,
+input[type='month']:focus
+{
+	background-color:rgba(10,20,200,0.4);
+	color:white;
+}
